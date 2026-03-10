@@ -4,3 +4,7 @@ const text = document.getElementById("text");
 btn.onclick =() => {
     text.innerHTML = "It's works!";
 };  
+
+
+
+

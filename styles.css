@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    
 }
 
 .even-centered-block {                        
@@ -70,6 +71,18 @@ ol {
   display: inline-block; 
   text-align: left; 
 }
+.home-btn button  {
+    background-color: #4da6ff;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.home-btn button:hover {    background-color: #66b3ff; color:white;
+
+}
 .home-btn {
     position: absolute;
     top: 10px;
@@ -81,8 +94,10 @@ ol {
 .center-justify {
     width: 60%;          /* keeps the text in a nice readable column */
     margin: 0 auto;      /* centers the block */
-    text-align: justify; /* justifies the text */
+    text-align: justify;
+    text-align-last: center;
 }
+
 .button-list {
   display: flex;
   flex-direction: column;
@@ -108,5 +123,4 @@ ol {
   background-color: lightblue;
   transform: translateY(-3px);
 }
-
 
