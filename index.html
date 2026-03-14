@@ -5,10 +5,10 @@
     
     <title>ANDY'S WEBPAGE</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="Andy's webpage for beginner coders">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-  <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     
   </head>
 
@@ -46,27 +46,35 @@
                 understand and fun to follow.</p>
 
               
-      </section>
-
-    <section>
-
-    <h2>Basic Coding Language's:</h2>
-    
-    <ul class="centered list">
-
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Python</li>
-      <li>Java</li>
-      <li>Scratch</li>
-
-    </ul>
     </section>
 
     <section>
 
-    <h2>Ready to Take the Next Step?</h2>
+                      <h2>Basic Coding Languages:</h2>
+
+                <div class="language-list">
+                  <button class="lang-btn" onclick="showInfo('HTML')">HTML</button>
+                  <button class="lang-btn" onclick="showInfo('CSS')">CSS</button>
+                  <button class="lang-btn" onclick="showInfo('JavaScript')">JavaScript</button>
+                  <button class="lang-btn" onclick="showInfo('Python')">Python</button>
+                  <button class="lang-btn" onclick="showInfo('Java')">Java</button>
+                  <button class="lang-btn" onclick="showInfo('Scratch')">Scratch</button>
+                </div>
+
+                <div id="languageInfoBox" class="info-box">
+                  <h3 id="languageTitle">Click a language</h3>
+                  <p id="languageInfo">Choose one of the languages above to learn what it does.</p>
+                </div>
+
+      
+
+     
+
+    </section>
+
+    <section>
+
+      <h2>Ready to Take the Next Step?</h2>
 
             <p class="center-justify">
             Coding is a journey, and every expert started
@@ -86,22 +94,23 @@
       <h3><a href="link for items.html">&rarr;click here for coding essentials&larr;</a></h3>
 
 
-
-      
-     <div class="video-container">
+          
+      <script src="script.js"></script>
+      <div class="video-container">
       <video class="rounded-video" autoplay muted loop playsinline>
       <source src="codevid.mp4" type="video/mp4">
       
       </video>
-     </div>
-
-
-
+      </div>
      </section>
-      <button id="btn">Click Me</button>
-      <p id="text">hello</p>
+
+     
+
+
+
+     
 
       
-    <script src="script.js"></script>
-    </body>
+    
+  </body>
 </html>
