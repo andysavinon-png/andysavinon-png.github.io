@@ -16,7 +16,7 @@ This project is a beginner-friendly website designed to introduce new coders to 
 
 ## Files Included
 - `index.html` – main homepage
-- `codingessentials.html` – second page with coding tools and resources
+- `coding-essentials.html` – second page with coding tools and resources
 - `styles.css` – styling for the website
 - `script.js` – interactive JavaScript for language information
 - `README.md` – project description
