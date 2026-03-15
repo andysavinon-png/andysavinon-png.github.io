@@ -1,3 +1,6 @@
+
+
+
 h1 {
     color: blue;
     text-align: center;
@@ -66,15 +69,15 @@ ul {
   display: inline-block; 
   text-align: left; 
 }
-ol {
+ul {
   display: inline-block; 
   text-align: left; 
 }
 ul {
   display: inline-block; 
-  text-align: left; 
+  text-align: lef; 
 }
-ol {
+ul {
   display: inline-block; 
   text-align: left; 
 }
@@ -165,6 +168,3 @@ ol {
   color: white;
   text-align: center;
 }
-
-
-
